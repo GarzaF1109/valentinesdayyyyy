@@ -11,42 +11,42 @@ const playfairDisplay = Playfair_Display({
 
 // 36 images
 const images = [
-  "/game-photos/1.avif",
-  "/game-photos/2.avif",
-  "/game-photos/3.avif",
-  "/game-photos/4.avif",
-  "/game-photos/5.avif",
-  "/game-photos/6.avif",
-  "/game-photos/7.avif",
-  "/game-photos/8.avif",
-  "/game-photos/9.avif",
-  "/game-photos/10.avif",
-  "/game-photos/11.avif",
-  "/game-photos/12.avif",
-  "/game-photos/13.avif",
-  "/game-photos/14.avif",
-  "/game-photos/15.avif",
-  "/game-photos/16.avif",
-  "/game-photos/17.avif",
-  "/game-photos/18.avif",
-  "/game-photos/19.avif",
-  "/game-photos/20.avif",
-  "/game-photos/21.avif",
-  "/game-photos/22.avif",
-  "/game-photos/23.avif",
-  "/game-photos/24.avif",
-  "/game-photos/25.avif",
-  "/game-photos/26.avif",
-  "/game-photos/27.avif",
-  "/game-photos/28.avif",
-  "/game-photos/29.avif",
-  "/game-photos/30.avif",
-  "/game-photos/31.avif",
-  "/game-photos/32.avif",
-  "/game-photos/33.avif",
-  "/game-photos/34.avif",
-  "/game-photos/35.avif",
-  "/game-photos/36.avif",
+  "/game-photos/1.jpg",
+  "/game-photos/2.jpg",
+  "/game-photos/3.jpg",
+  "/game-photos/4.jpg",
+  "/game-photos/5.jpg",
+  "/game-photos/6.jpg",
+  "/game-photos/7.jpg",
+  "/game-photos/8.jpg",
+  "/game-photos/9.HEIC",
+  "/game-photos/10.jpg",
+  "/game-photos/11.jpeg",
+  "/game-photos/12.jpeg",
+  "/game-photos/13.jpeg",
+  "/game-photos/14.jpeg",
+  "/game-photos/15.jpeg",
+  "/game-photos/16.jpeg",
+  "/game-photos/17.jpeg",
+  "/game-photos/18.jpeg",
+  "/game-photos/19.jpeg",
+  "/game-photos/20.jpeg",
+  "/game-photos/21.jpeg",
+  "/game-photos/22.jpeg",
+  "/game-photos/23.jpeg",
+  "/game-photos/24.jpeg",
+  "/game-photos/25.jpeg",
+  "/game-photos/26.jpeg",
+  "/game-photos/27.jpeg",
+  "/game-photos/28.jpeg",
+  "/game-photos/29.jpeg",
+  "/game-photos/30.jpeg",
+  "/game-photos/31.jpeg",
+  "/game-photos/32.jpeg",
+  "/game-photos/33.jpeg",
+  "/game-photos/34.jpeg",
+  "/game-photos/35.jpeg",
+  "/game-photos/36.jpeg",
 ];
 
 export default function ValentinesProposal() {
@@ -91,7 +91,7 @@ export default function ValentinesProposal() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            Congratulations! You have completed the game.
+            Felicidades Miamor Nanahue! Completaste el juego.
           </motion.h2>
         )}
         {step === 1 && (
@@ -132,10 +132,10 @@ export default function ValentinesProposal() {
             <h2
               className={`text-5xl font-semibold mb-8 ${playfairDisplay.className}`}
             >
-              Will you be my Valentine?
+              Serías mi San Valentín para siempre, mi novia, mi guapa, mi enana?
             </h2>
             <Image
-              src="/sad_hamster.png"
+              src="/me.jpg"
               alt="Sad Hamster"
               width={200}
               height={200}
@@ -145,9 +145,9 @@ export default function ValentinesProposal() {
                 className="px-6 py-2 text-lg font-semibold text-white bg-gradient-to-r from-pink-500 to-rose-500 rounded-xl hover:from-pink-600 hover:to-rose-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
                 onClick={handleYesClick}
               >
-                Yes, I will! 🥰
+                Siiii! Claro que si (no hay botón para decir que no)! 
               </button>
-              <button
+              {/* <button
                 className="px-6 py-2 text-lg font-semibold text-white bg-gradient-to-r from-gray-500 to-gray-600 rounded-xl hover:from-gray-600 hover:to-gray-700 transform hover:scale-95 transition-all duration-300 shadow-lg"
                 style={
                   position
@@ -162,7 +162,7 @@ export default function ValentinesProposal() {
                 onClick={() => setPosition(getRandomPosition())}
               >
                 No, I won&apos;t 😢
-              </button>
+              </button> */}
             </div>
           </motion.div>
         )}
@@ -175,10 +175,10 @@ export default function ValentinesProposal() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            Thank you for accepting, I love you! 💕
-            <p className="text-sm mt-4">For more information, write me!!! 💌</p>
+            Gracias por aceptar Nanahue, te amo! 💕
+            <p className="text-sm mt-4">Te amo chula!!! Haces de mi vida mas bonita siempre</p>
             <Image
-              src="/hamster_jumping.gif"
+              src="/spongebob.gif"
               alt="Hamster Feliz"
               width={200}
               height={200}
